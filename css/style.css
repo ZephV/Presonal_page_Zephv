@@ -1,0 +1,138 @@
+/*---------------------
+ creator : Zeph
+
+ ---------------------*/
+
+/* 总设定 */
+
+*{
+    /*background:rgba(0,0,0,.1);*/
+}
+
+.container {
+    margin:0 auto;
+    width: 1180px;
+    padding: 0px 40px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.right,.left{
+    margin: 25px;
+    margin-top: 10px;
+    border:2px solid #000;
+}
+
+.right{
+    float: right;
+    width: 650px;
+}
+
+.left{
+    float: left;
+    width: 350px;
+}
+
+h2{ 
+    display: inline-block;
+    color: #000;
+    /*background-color: #ababab;*/
+    padding:0 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 2.3em;
+    text-shadow: 2px 2px .5px #ccc;
+}
+
+p{
+        text-shadow: 2px 2px .5px #ccc;
+}
+
+/*  ------左边------  */
+
+#presonal_info{
+    position:fixed;
+}
+
+#aboutme,#contactme,#aboutsite,#myworks,#myskill{
+    display: block;
+    border:2px solid #000;
+}
+
+#aboutme,#contactme{
+    margin: 20px;
+    width: 310px;
+}
+
+/* 关于我 */
+#aboutme{
+}
+
+#aboutme .avatar{
+    overflow: hidden;
+    display: block;
+    height: 160px;
+}
+
+#aboutme .avatar img{
+    height: 150px;
+    padding-top: 20px;
+    border-radius:50%;
+}
+
+#aboutme #myname{
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+#aboutme p{
+    padding: 10px 0;
+    letter-spacing:2px;
+    font-size: 0.9em;
+}
+
+#contactme{
+}
+
+#contactme p{
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 30px;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+#contactme p span {
+    display: inline-block;
+    padding-top: 5px;
+    text-align: right;
+    width: 70px;
+}
+
+
+/*  ------右边------  */
+
+#aboutsite,#myworks,#myskill{
+    margin: 20px;
+    width: 610px;
+}
+
+#aboutsite p{
+    padding:10px 20px;
+    text-align: left;
+    font-size: .9em;
+}
+
+#aboutsite p span{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#aboutsite{
+    display: block;
+}
+
+#myworks{
+    height:400px;
+}
