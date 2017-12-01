@@ -20,7 +20,8 @@
 .right,.left{
     margin: 25px;
     margin-top: 10px;
-    border:2px solid #000;
+    box-shadow: 2px 2px .5px #999;
+    background: #EAEAEA;
 }
 
 .right{
@@ -33,6 +34,11 @@
     width: 350px;
 }
 
+
+.clearf{
+    clear: both;
+}
+
 h2{ 
     display: inline-block;
     color: #000;
@@ -41,11 +47,11 @@ h2{
     font-weight: bold;
     font-size: 1.5em;
     line-height: 2.3em;
-    text-shadow: 2px 2px .5px #ccc;
+    text-shadow: 2px 2px .5px #bbb;
 }
 
 p{
-        text-shadow: 2px 2px .5px #ccc;
+	text-shadow: 1.5px 1.5px .3px #FFDEAD;
 }
 
 /*  ------左边------  */
@@ -55,8 +61,9 @@ p{
 }
 
 #aboutme,#contactme,#aboutsite,#myworks,#myskill{
+	background:#FFF68F;
     display: block;
-    border:2px solid #000;
+    box-shadow: 2px 2px .5px #999;
 }
 
 #aboutme,#contactme{
@@ -76,7 +83,6 @@ p{
 
 #aboutme .avatar img{
     height: 150px;
-    padding-top: 20px;
     border-radius:50%;
 }
 
@@ -134,5 +140,16 @@ p{
 }
 
 #myworks{
-    height:400px;
+}
+
+#myworks ul{
+    margin-left: 80px;
+    padding-bottom:70px;
+}
+
+#myworks li img{
+    float: left;
+    width: 120px;
+    margin-top:30px;
+    margin-left:30px;
 }
