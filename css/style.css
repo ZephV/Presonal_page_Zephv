@@ -3,12 +3,29 @@
 
  ---------------------*/
 
-/* 总设定 */
+/* 基本样式 */
 
 *{
     /*background:rgba(0,0,0,.1);*/
 }
 
+body{
+    overflow: hidden;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.clearf{
+    clear: both;
+}
+
+/* 总体样式 */
 .container {
     margin:0 auto;
     width: 1180px;
@@ -17,29 +34,7 @@
     text-align: center;
 }
 
-.right,.left{
-    margin: 25px;
-    margin-top: 10px;
-    box-shadow: 2px 2px .5px #999;
-    background: #EAEAEA;
-}
-
-.right{
-    float: right;
-    width: 650px;
-}
-
-.left{
-    float: left;
-    width: 350px;
-}
-
-
-.clearf{
-    clear: both;
-}
-
-h2{ 
+.part_title{ 
     display: inline-block;
     color: #000;
     /*background-color: #ababab;*/
@@ -52,24 +47,24 @@ h2{
 
 
 
+#presonal_info,#the_rightbox{
+    margin: 25px;
+    margin-top: 30px;
+    box-shadow: 2px 2px .5px #999;
+    background: #EAEAEA;
+}
+
+
 /*  ------左边------  */
 
 #presonal_info{
     position:fixed;
-    /*animation: mymove 1s;*/
-}
-
-@keyframes mymove{
-    from{
-        margin-left:-200px;
-         }
-    to{
-        margin-left:25px;
-    }
+    margin-left: -800px;
+    width: 350px;
 }
 
 
-#aboutme,#contactme,#aboutsite,#myworks,#myskill{
+.part_box {
 	background:#FFF68F;
     display: block;
     box-shadow: 2px 2px .5px #999;
@@ -128,6 +123,11 @@ h2{
 
 /*  ------右边------  */
 
+#the_rightbox{
+    margin-top: -1000px;
+    width: 650px;
+}
+
 #aboutsite,#myworks,#myskill{
     margin: 20px;
     width: 610px;
@@ -163,13 +163,24 @@ h2{
     margin-left:30px;
 }
 
-/* ------ 中间 ------*/
-
-#the_big_rightbox{
+/* ------ 欢迎页 ------*/
+.wellcome_page_wrap{
+    
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
 }
 
-.mid_btn{
-    position: absolute;
-    top:50%;
-    left: 50%;
+#wellcome_page{
+    display:none;
+    text-align: center;
 }
+
+#enter_btn{
+    display: none;
+}
+
+#logo{
+    display: none;
+}
+/*----------------*/

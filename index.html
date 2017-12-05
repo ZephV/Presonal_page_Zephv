@@ -10,14 +10,22 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div style="display: none;">由于时间原因网页没有做到最好的优化,代码写的不好的地方请多多包涵.联系邮箱:309516155@qq.com</div>
+<!-- 欢迎页面 -->
+<div class="wellcome_page_wrap">
+    <div class="mid_btn" id="wellcome_page">
+        <div id="logo">
+            <img src="images/avatar.png" alt="logo.png">
+        </div>
+        <div id="enter_btn">开始浏览</div>
+    </div>
+</div>
+<!-- 主页面 -->
 <div class="container">
-	<div class="mid_btn">
-		<button id="btn_test">点击</button>
-	</div>
+    <!-- 左大块 -->
     <div class="left" id="presonal_info">
-        <div id="aboutme">
-        	<h2>个人信息</h2>
+        <!-- 关于我 -->
+        <div id="aboutme" class="part_box">
+        	<h2 class="part_title">个人信息</h2>
         	<div class="avatar">
         		<img src="images/avatar.png" alt="头像图">
         	</div>
@@ -25,8 +33,9 @@
         	<p class="resume">性别<b>男</b>,坐标<b>深圳</b>,<br>
         	2017年毕业于广州城建职业学院<br><b>软件技术</b>专业</p>
         </div>
-        <div id="contactme">
-        	<h2>联系方式</h2>
+        <!-- 联系我 -->
+        <div id="contactme" class="part_box">
+        	<h2 class="part_title">联系方式</h2>
         	<p>
         		<span><b>手机:</b></span>15875547653<br>
         		<span><b>qq:</b></span>309516155<br>
@@ -34,9 +43,11 @@
         	</p>
         </div>
     </div>
-    <div class="right" id="the_big_rightbox">
-        <div id="aboutsite">
-        	<h2>本站信息</h2>
+    <!-- 右大块 -->
+    <div class="right" id="the_rightbox">
+        <!-- 关于这个网页 -->
+        <div id="aboutsite" class="part_box">
+        	<h2 class="part_title">本站信息</h2>
         	<p>欢迎你来到我的个人网页,这个网页最主要的用途是用来求职(嗯嗯没错这是个简历网页,请把工作砸我脸上2333.).</p>
         	<p>
         		<span><b>我的个人自述:</b></span><br>
@@ -44,11 +55,13 @@
         		生活中,我是一个和别人相处比较融洽的人,善于倾听别人的话,喜欢团队合作.如果你通过这个网页了解我,觉得我还可以请一定要联系我给我一个面试的机会或工作的机会哦,感谢你读完我这一大段唠叨.
         	</p>
         </div>
-        <div id="myskill">
-        	<h2>技能栈</h2>
+        <!-- 我的技能栈 -->
+        <div id="myskill" class="part_box">
+        	<h2 class="part_title">技能栈</h2>
         </div>
-        <div id="myworks">
-        	<h2>我的作品</h2>
+        <!-- 我的作品 -->
+        <div id="myworks" class="part_box">
+        	<h2 class="part_title">我的作品</h2>
         	<ul>
         		<li><img src="images/avatar.png" alt="1"></li>
         		<li><img src="images/avatar.png" alt="1"></li>
@@ -56,7 +69,7 @@
         		<li><img src="images/avatar.png" alt="1"></li>
         		<li><img src="images/avatar.png" alt="1"></li>
         		<li><img src="images/avatar.png" alt="1"></li>
-        		<li class="clearf"> </div>
+        		<div class="clearf"></div>
         	</ul>
         </div>
     </div>
