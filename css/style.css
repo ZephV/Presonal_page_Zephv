@@ -9,10 +9,6 @@
     /*background:rgba(0,0,0,.1);*/
 }
 
-body{
-    overflow: hidden;
-}
-
 .right{
     float: right;
 }
@@ -26,6 +22,11 @@ body{
 }
 
 /* 总体样式 */
+
+body{
+    background: url(../images/bg06.jpg);
+}
+
 .container {
     margin:0 auto;
     width: 1180px;
@@ -133,22 +134,23 @@ body{
     width: 610px;
 }
 
+#aboutsite{
+    padding-bottom: 20px;
+}
+
 #aboutsite p{
     padding:10px 20px;
     text-align: left;
     font-size: .9em;
 }
 
-#aboutsite p span{
+#aboutsite #my_resume{
     display: inline-block;
-    margin-bottom: 5px;
 }
 
-#aboutsite{
-    display: block;
-}
-
-#myworks{
+#aboutsite .my_resume{
+    background: gray;
+    text-align: center;
 }
 
 #myworks ul{
@@ -165,22 +167,41 @@ body{
 
 /* ------ 欢迎页 ------*/
 .wellcome_page_wrap{
-    
     margin: 0 auto;
-    height: 400px;
     width: 400px;
 }
 
 #wellcome_page{
+    background: rgba(0,0,0,.5);
+    padding: 20px;
+    margin-top: 20px;
     display:none;
     text-align: center;
+}
+
+
+#logo{
+    display: none;
+}
+
+#subtitle{
+    margin-top: 10px;
+    color: #fff;
 }
 
 #enter_btn{
     display: none;
 }
 
-#logo{
-    display: none;
+#enter_btn button{
+    margin-top: 20px;
+    border: none;
+    padding:10px;
+    font-weight: bold;
+}
+
+#enter_btn button:hover{
+    background-color: black;
+    color: white;
 }
 /*----------------*/
